@@ -6,7 +6,9 @@ Following are the files defined under FinalProject-4:
 2. Fraud_Detection_for_Credit_Card_Transactions_Project4_Team4.docx  -> Initial project proposal document.
 3. Credit_ard_Fraud_Detection-Project4-Group-4.pptx
 4. creditcard.csv --> (PLEASE NOTE, this file wa downloaded from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. As the file size is around ~150MB, I was not able to upload the data as Github allows a max file size of ~25 MB). For the sake of uploading the file, I have uploaded smaller set of data. However, for creating a model, I used the csv file as is.
-5. README>md file  -> Contain brief write up of this project, different steps, classification reprot, team member and contributions.
+5. README>md file  -> Contains brief write up of this project, different steps, classification reprot, team member and contributions.
+
+Please Note: We cannot calculate the R-squared value, as R-squared is mostly applicable for Regression and our case is an example of pure binary classification.
 
    Project Team members and Contribution:
    1.	Andi Mysllinj
@@ -23,8 +25,8 @@ Different steps involved in optimizing, creating the model and evaulating the mo
 Step 2: Data Preprocessing: 3. Handle Missing Values: Checked for any missing values in the dataset. If present, decide whether to impute or remove rows with missing values. In many cases, credit card transaction datasets have already been preprocessed and don't contain missing values.
 4. Outlier Handling: Credit card fraud detection often involves handling outliers. Considered IQR to identify and potentially remove outliers in the "Amount" and "Time" columns.
 5. Feature Scaling: Normalized the "Amount" and "Time" columns so that they have similar scales. Standard scaling (mean=0, std=1) is a common choice.
-Step 3: Class Imbalance Handling: 6. Checked the class distribution to see if it's highly imbalanced. In most cases, found that the majority of transactions are legitimate (Class 0), while only a small percentage are fraudulent (Class 1).
-7. Address Class Imbalance: To handle class imbalance, you can employ techniques like:
+Step 3: Class Imbalance Handling: Checked the class distribution to see if it's highly imbalanced. In most cases, found that the majority of transactions are legitimate (Class 0), while only a small percentage are fraudulent (Class 1).
+7. Address Class Imbalance: To handle class imbalance, employed following technique:
 	• Resampling: Either oversample the minority class (fraudulent transactions) or undersample the majority class (legitimate transactions) to balance the dataset.
 8. Data Splitting: Split the preprocessed dataset into training and testing sets. A common split ratio is 70% for training and 30% for testing.
 9. Model Selection: Chose a machine learning model suitable for binary classification, such as Random Forest or XGBoost. These models are robust and work well for fraud detection tasks.
