@@ -7,8 +7,11 @@ Following are the files defined under FinalProject-4:
 3. Credit_ard_Fraud_Detection-Project4-Group-4.pptx
 4. creditcard.csv --> (PLEASE NOTE, this file wa downloaded from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. As the file size is around ~150MB, I was not able to upload the data as Github allows a max file size of ~25 MB). For the sake of uploading the file, I have uploaded smaller set of data. However, for creating a model, I used the csv file as is.
 5. README>md file  -> Contains brief write up of this project, different steps, classification reprot, team member and contributions.
+   
+NOTE: The directory is clean and contains no extra files. We also do not have any API keys, so did not include a .gitignore file.
 
-Please Note: We cannot calculate the R-squared value, as R-squared is mostly applicable for Regression and our case is an example of pure binary classification.
+PLEASE NOTE: We cannot calculate the R-squared value, as R-squared is mostly applicable for Regression and our case is an example of pure binary classification.
+
 
    Project Team members and Contribution:
    1.	Andi Mysllinj
