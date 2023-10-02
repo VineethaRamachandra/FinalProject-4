@@ -8,7 +8,7 @@ Following are the files defined under FinalProject-4:
 4. creditcard.csv --> (PLEASE NOTE, this file wa downloaded from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. As the file size is around ~150MB, I was not able to upload the data as Github allows a max file size of ~25 MB). For the sake of uploading the file, I have uploaded smaller set of data. However, for creating a model, I used the csv file as is.
 5. README>md file  -> Contain brief write up of this project, different steps, classification reprot, team member and contributions.
 
-   Project Team members and Contriution:
+   Project Team members and Contribution:
    1.	Andi Mysllinj
    2.	Krishna  Patel
    3.	Nancy Sakyi
