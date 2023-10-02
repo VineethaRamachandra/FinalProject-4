@@ -25,6 +25,7 @@ Different steps involved in optimizing, creating the model and evaluating the mo
 
 
 1. Downloaded the dataset from Kaggle and loaded it into preferred data analysis environment (e.g., Python with libraries like pandas, scikit-learn, and Matplotlib/Seaborn for data exploration).
+   Also, created a Spark session to handle data processing, modeling, etc.
    
 2. Explored the dataset to understand its structure, features, and class distribution. Noticed columns like "Time," "Amount," and "Class" (where "Class" is 0 for legitimate transactions and 1 for fraudulent transactions).
    
