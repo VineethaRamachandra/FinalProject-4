@@ -5,7 +5,7 @@ Following are the files defined under FinalProject-4:
 1. CreditCardFraudDetection.ipynb -> main source code file.
 2. Fraud_Detection_for_Credit_Card_Transactions_Project4_Team4.docx  -> Initial project proposal document.
 3. Credit_ard_Fraud_Detection-Project4-Group-4.pptx
-4. creditcard.csv --> (PLEASE NOTE, this file wa downloaded from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. As the file size is around ~150MB, I was not able to upload the data as Github allows a max file size of ~25 MB). For the sake of uploading the file, I have uploaded smaller set of data. However, for creating a model, I used the csv file as is.
+4. creditcard.csv --> (PLEASE NOTE, this file was downloaded from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. As the file size is around ~150MB, I was not able to upload the file due to Github restriction. Github does not allow one to upload file greater than 25 MB). For the sake of uploading the file, I have uploaded smaller set of data. However, for creating a model, I have used the ~ original ~150 MB csv file as is.
 5. README>md file  -> Contains brief write up of this project, different steps, classification reprot, team member and contributions.
    
 NOTE: The directory is clean and contains no extra files. We also do not have any API keys, so did not include a .gitignore file.
@@ -21,11 +21,14 @@ PLEASE NOTE: We cannot calculate the R-squared value, as R-squared is mostly app
    5.	Susan Abraham
    6.	Vineetha Ramachandra: Developed end-to-end code, prepared Project proposal, updated README file, prepared project presentation deck.
 
-Different steps involved in optimizing, creating the model and evaulating the model performance:
+Different steps involved in optimizing, creating the model and evaluating the model performance:
+
 
 1. Downloaded the dataset from Kaggle and loaded it into preferred data analysis environment (e.g., Python with libraries like pandas, scikit-learn, and Matplotlib/Seaborn for data exploration).
    
 2. Explored the dataset to understand its structure, features, and class distribution. Noticed columns like "Time," "Amount," and "Class" (where "Class" is 0 for legitimate transactions and 1 for fraudulent transactions).
+   
+DATA OPTIMIZATION:
 
 3. Handle Missing Values: Checked for any missing values in the dataset. If present, decide whether to impute or remove rows with missing values. In many cases, credit card transaction datasets have already been preprocessed and don't contain missing values.
 
@@ -66,7 +69,7 @@ G. Weighted Avg: Weighted average considers the number of samples in each class 
 
 H. ROC AUC Score: The ROC AUC (Receiver Operating Characteristic Area Under the Curve) score measures the model's ability to distinguish between the two classes across different probability thresholds. A score of 0.88 suggests that the model has reasonably good discriminatory power.
 
-CONCULISION: In summary, this classification report indicates that the model performs well in terms of precision, recall, and F1-score, especially for Class 0 (legitimate transactions). However, for Class 1 (fraudulent transactions), there is room for improvement in recall, which means that the model could better identify more fraudulent transactions while maintaining a high level of precision.
+CONCLUSION: In summary, this classification report indicates that the model performs well in terms of precision, recall, and F1-score, especially for Class 0 (legitimate transactions). However, for Class 1 (fraudulent transactions), there is room for improvement in recall, which means that the model could better identify more fraudulent transactions while maintaining a high level of precision.
 
 
 
