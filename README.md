@@ -13,14 +13,6 @@ NOTE: The directory is clean and contains no extra files. We also do not have an
 PLEASE NOTE: We cannot calculate the R-squared value, as R-squared is mostly applicable for Regression and our case is an example of pure binary classification.
 
 
-   Project Team members and Contribution:
-   1.	Andi Mysllinj
-   2.	Krishna  Patel
-   3.	Nancy Sakyi
-   4.	Surender Raman
-   5.	Susan Abraham
-   6.	Vineetha Ramachandra: Developed end-to-end code, prepared Project proposal, updated README file, prepared project presentation deck.
-
 Different steps involved in optimizing, creating the model and evaluating the model performance:
 
 
